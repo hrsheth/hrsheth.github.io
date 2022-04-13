@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: darkgray;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#nav {
+  color: white;
+}
+
+#nav:hover {
+  color: gold;
+}
+
+body {
+  background-color: black;
+}
+
+h1,
+h4 {
+  color: #ddd;
+}
+
+#imgbtn {
+  background-color: rgb(55, 55, 202);
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+}
+
+.resumeButton {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.contactButton {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: black;
+}
+
+.contactButton:hover {
+  background-color: goldenrod;
+}
+
+.resumeButton:hover {
+  background-color: darkseagreen;
+}
+
+#edu {
+  max-width: 100%;
+}
+
+#sc {
+  color: darkgray;
+  font-size: small;
+}
+
+#aboutMe {
+  background-color: bisque;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.col {
+  float: left;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+
+.lft {
+  max-width: 50%;
+}
+
+.rit {
+  max-width: 50%;
+}
+
+/* Clear floats after the columns */
+.abt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 20%;
+  color: #fff;
+  background-color: blue;
+}
+
+.right {
+  width: 80%;
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#contactForm {
+  max-width: 900px;
+  margin: 100px auto 0px auto;
+}
+
+#contactMeForm {
+  text-align: center;
+  background-color: darkcyan;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+#cform {
+  margin: 40px;
+}
+
+label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-style: normal;
+}
+
+input#name {
+  width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: 0;
+  padding: 8px;
+  background-color: aliceblue;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#submit,
+#reset {
+  width: 20%;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+#submit:hover,
+#reset:hover {
+  background-color: darkslategray;
+}
+
+#ftr {
+  text-align: center;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: yellowgreen;
+}
+
+#yt {
+  text-align: center;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: goldenrod;
+}
+
+@media only screen and (max-width: 450px) {
+  .left {
+    font-size: small;
+    width: 40%;
+    color: #fff;
+    background-color: blue;
+  }
+  .right {
+    width: 60%;
+    background-color: white;
+  }
+
+  input#name {
+    width: 300px;
+    padding: 2px;
+  }
+
+  .lft {
+    max-width: 40%;
+    font-size: xx-small;
+  }
+
+  .rit {
+    max-width: 50%;
+    font-size: 49%;
+  }
+}
